@@ -1,0 +1,16 @@
+.carousel-caption {
+    position: absolute;
+    right: 40%;
+    bottom: 8.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: initial;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+}

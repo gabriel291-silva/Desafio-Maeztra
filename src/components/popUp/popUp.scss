@@ -1,0 +1,107 @@
+.popup-contents{
+    position: fixed;
+    inset: 0px;
+    background: rgba(0, 0, 0, 0.25);
+    z-index: 10;
+    .div-btn-close{
+        width: 848px;
+        align-items: unset;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 70px;
+        button{
+            position: relative;
+            left: 94%;
+            background-color: transparent;
+            border: none;
+            color: #FFFFFF;
+        }
+    }
+.popup{
+    display: flex;
+    width: 848px;
+    height: 529px;
+    background: #fff;
+    margin: 0 auto;    
+
+    
+    
+    .popup-text{
+        margin: 0 auto;
+        margin-top: 126px;
+.icon-title{
+    p{
+        font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #464B54;
+    }
+}
+        .email{
+            display: flex;
+            flex-direction: column;
+
+            p{
+                font-family: 'Titillium Web';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 23px;
+                color: #787D83;
+                margin: 0;
+            }
+            span{
+                font-family: 'Titillium Web';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 23px;
+                color: #787D83;
+                margin: 0;
+                margin-bottom: 12px;
+            }
+            input{
+                width: 322px;
+                height: 40px;
+                background: #FFFFFF;
+                border: 1px solid #C4C4C4;
+                border-radius: 10px;
+            }
+            button{
+                background: #FAA500;
+                border-radius: 10px;
+                width: 322px;
+                height: 40px;
+                border: none;
+                margin-top: 12.5px;
+                color: #fff;
+            }
+        }
+        }
+    }
+}
+@media only screen and (max-width: 1200px){
+    .popup-image{
+        display: none;
+    }
+    .popup-contents .popup {
+        width: 298px;
+        height: 307px;
+    }
+    .popup-contents .popup .popup-text {
+        margin-top: 44px;
+    }
+    .popup-contents .popup .popup-text .email input {
+        width: 256px;
+    }
+    .popup-contents .popup .popup-text .email button {
+        width: 256px; 
+    }
+    .popup-contents .div-btn-close {
+        width: 230px;
+    }
+
+}
